@@ -1,0 +1,40 @@
+{
+  "name": "JMilli Tax Services",
+  "short_name": "JMilli",
+  "description": "Professional tax document management portal with AI assistant Ira. Manage your tax documents, passwords, and get instant help from your AI assistant.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "business", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "display_override": ["standalone", "fullscreen"],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
